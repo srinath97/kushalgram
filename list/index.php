@@ -41,7 +41,7 @@
                 </tr>
                 <?php
                 	require_once('db.php');
-                    $query="SELECT * from form WHERE village!='Dayal' and village!='Ranivada'";
+                    $query="SELECT * from form";
                     $result=mysqli_query($stat,$query); 
                     $i=1;
                     while($rows=mysqli_fetch_array($result))
